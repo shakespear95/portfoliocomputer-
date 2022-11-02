@@ -264,11 +264,11 @@ margin: 20px 0px 30px 0px;
 }
 
 .frameworks img {
-  margin: 0px 0px 0px 188px;
+  margin: 0px 0px 0px 291px;
 }
 
 .lastskills img {
-  margin: 0px 0px 0px 263px;
+  margin: 0px 0px 0px 364px;
 }
 
 .frameworks,
@@ -277,7 +277,7 @@ margin: 20px 0px 30px 0px;
   margin: 40px 0px 0px 0px;
 }
 .chev1 img {
-  margin: 3px 0px 0px 212px
+  margin: 3px 0px 0px 315px
 }
 
 .skills > :nth-child(1) {
@@ -328,6 +328,15 @@ margin: 20px 0px 30px 0px;
   padding-top: 7px;
 }
 
+.skills {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 8px;
+  margin-right: 6em;
+}
 
 @media  (min-width: 1320px){
     header {
@@ -349,16 +358,13 @@ margin: 20px 0px 30px 0px;
     }   
 }
 
-
-
 @media (max-width: 900px) {
   .portimage img {
     width: 26rem;
     height: 18%;
   }
   
-  }
-
+}
 
 @media only screen and (max-width: 840px){
   header {
@@ -412,14 +418,67 @@ margin: 20px 0px 30px 0px;
     margin: 34px 38px 0px 162px;
   }
 
-}
-
-@media only screen and (max-width: 800px){
   .skills {
     display: inline-block;
+    margin: 5px 0px 2px 31px;
+    height: 70px;
   }
-}
+  .skills > :nth-child(1){
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 2em;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+    background: #ebebff;
+    border-radius: 8px;
+    width: 217px;
+    height: 63px;
+    text-align: center;
+    padding: 6px 153px 0px 2px;
+    margin-bottom: 17px;
+  }
+  
+  .skills > :nth-child(2) {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 2em;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+    background: #ebebff;
+    border-radius: 8px;
+    width: 217px;
+    height: 63px;
+    text-align: center;
+    padding: 6px 153px 0px 2px;
+    margin-bottom: 17px;
+  }
+  
+  .skills > :nth-child(3) {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 2em;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+    background: #ebebff;
+    border-radius: 8px;
+    width: 217px;
+    height: 63px;
+    text-align: center;
+    padding: 6px 153px 0px 2px;
+    margin-bottom: 17px;
+  }
 
+  .skills p {
+    margin: -45px 0px 0px -7px;
+  }
+
+}
 
 .home {
     height: 916px;
@@ -482,15 +541,7 @@ margin: 20px 0px 30px 0px;
     margin: auto;
   }
    
-  .skills {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0;
-    gap: 8px;
-    margin-right: 6em;
-  }
+ 
 
   #textarea {
     margin: 0 0 25px 13px;
@@ -609,11 +660,12 @@ button:active,
   }
   
   .contactform {
-    width: 40%;
+    width: 56%;
     margin: auto;
     align-items: center;
     margin-top: 67px;
     padding-top: 150px;
+    align-items: center;
     
 
  }
@@ -656,7 +708,7 @@ button:active,
 }
 
 .sidesection {
-  width: 21rem;
-  margin: 0px -32px 0px 0px;
+  width: 31rem;
+  margin: 0px -200px 0px 0px;
 }
 
