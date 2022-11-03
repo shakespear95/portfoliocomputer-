@@ -12,7 +12,6 @@ header {
   display: flex;
   align-items: center;
   background-color: white;
-
 }
 
 #logo {
@@ -84,8 +83,35 @@ form li {
   width: 327px;
 }
 
+.languages-list li {
+  display: flex;
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  margin-top: 21px;
+  width: 303px;
+  height: 66.72px;
+}
+
 .home-content {
   margin: 7% 0% 0% 8%;
+}
+
+.about-content li {
+  padding-left: 8px;
+}
+
+.home li {
+  padding-left: 8px;
+}
+
+.categories li {
+  align-items: center;
+  background-color: #ebebff;
+  border-radius: 8px;
+  padding: 4px 12px;
+  margin-right: 8px;
+  color: #6070ff;
 }
 
 .home-content ul li {
@@ -94,10 +120,6 @@ form li {
 
 .connect {
   color: #7f8cff;
-}
-
-.home li {
-  padding-left: 8px;
 }
 
 form ul {
@@ -173,15 +195,6 @@ h2 {
   padding-left: 0;
 }
 
-.categories li {
-  align-items: center;
-  background-color: #ebebff;
-  border-radius: 8px;
-  padding: 4px 12px;
-  margin-right: 8px;
-  color: #6070ff;
-}
-
 form button {
   display: flex;
   flex-direction: row;
@@ -229,10 +242,6 @@ button:hover {
   color: #7a869a;
 }
 
-.work-content li {
-  margin-left: 32px;
-}
-
 .about-myself {
   display: flex;
   flex-direction: column;
@@ -260,10 +269,6 @@ button:hover {
   color: #344563;
   margin: 0;
   padding: 0;
-}
-
-.about-content li {
-  padding-left: 8px;
 }
 
 .about-content ul {
@@ -343,16 +348,6 @@ button:hover {
 .languages-list ul {
   list-style: none;
   padding-left: 15px;
-}
-
-.languages-list li {
-  display: flex;
-  background: #f7f7f9;
-  border-radius: 8px;
-  margin-bottom: 12px;
-  margin-top: 21px;
-  width: 303px;
-  height: 66.72px;
 }
 
 .languages-list p {
