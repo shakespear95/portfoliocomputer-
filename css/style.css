@@ -215,8 +215,9 @@ form button {
 }
 
 button:hover {
-  background-color: #2230d2;
+  background-color: #202dc2;
   color: #fff;
+  cursor: pointer;
 }
 
 .work-button {
@@ -466,6 +467,16 @@ form {
   background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
+  padding: 0 0 0 17px;
+}
+
+#user-name ::placeholder,
+#email-address ::placeholder {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+  margin-left: 3px;
 }
 
 #msg {
@@ -474,6 +485,7 @@ form {
   border-radius: 8px;
   width: 327px;
   height: 170px;
+  padding: 18px 0 0 17px;
 }
 
 .shape {
@@ -535,7 +547,7 @@ hr {
   #home {
     background-image: url(../img/home_bg.svg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100%;
   }
 
   .home p {
@@ -614,12 +626,13 @@ hr {
   .nav-ul a:hover {
     transform: scale(1.5);
     color: #2230d2;
+    cursor: pointer;
   }
 
   .form-min {
     background-image: url(../img/background.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
   }
 
   .form-ul {
