@@ -239,12 +239,12 @@ button:hover {
 
 .work-content ul {
   display: inline-flex;
-  padding-left: 30px;
+  padding-left: 0;
   color: #7a869a;
 }
 
 .work-content > ul > li {
-  margin-left: 3em;
+  margin-left: 2git em;
 }
 
 .about-myself {
