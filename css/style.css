@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400,700&display=swap');
 
 * {
   margin: 0;
@@ -81,6 +81,7 @@ header {
   letter-spacing: 0.03em;
   color: #6b778c;
   margin: 0% 0% 0% 8%;
+  list-style: disc;
 }
 
 .secondlist > :nth-child(1),
@@ -95,6 +96,7 @@ header {
   height: 24px;
   text-align: center;
   margin: 0% 0% 0% 3%;
+  padding-top: 5px;
 }
 
 .secondlist > :nth-child(3) {
@@ -108,6 +110,7 @@ header {
   height: 24px;
   text-align: center;
   margin: 0% 0% 0% 3%;
+  padding-top: 5px;
 }
 
 .secondlist1 > :nth-child(1),
@@ -122,6 +125,7 @@ header {
   height: 24px;
   text-align: center;
   margin: 0 0 0 3%;
+  padding-top: 5px;
 }
 
 .secondlist1 > :nth-child(2),
@@ -136,20 +140,20 @@ header {
   height: 24px;
   text-align: center;
   margin: 0% 0% 0% 3%;
+  padding-top: 5px;
 }
 
 .skills > :nth-child(1) {
   font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 15px;
   line-height: 2em;
   letter-spacing: 0.03em;
-  color: #6070ff;
+  color: #253858;
   background: #ebebff;
   border-radius: 8px;
-  width: 76px;
-  height: 90px;
+  width: 98px;
+  height: 98px;
   text-align: center;
   padding-top: 7px;
 }
@@ -158,14 +162,14 @@ header {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 15px;
   line-height: 2em;
   letter-spacing: 0.03em;
-  color: #6070ff;
+  color: #253858;
   background: #ebebff;
   border-radius: 8px;
-  width: 76px;
-  height: 90px;
+  width: 98px;
+  height: 98px;
   text-align: center;
   padding-top: 7px;
 }
@@ -174,14 +178,14 @@ header {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 15px;
   line-height: 2em;
   letter-spacing: 0.03em;
-  color: #6070ff;
+  color: #253858;
   background: #ebebff;
   border-radius: 8px;
-  width: 76px;
-  height: 90px;
+  width: 98px;
+  height: 98px;
   text-align: center;
   padding-top: 7px;
 }
@@ -209,10 +213,15 @@ header {
   padding-left: 2%;
 }
 
+.tonicpart img {
+  margin: -6% 0% 0% 60%;
+}
+
 .middle {
   background-image: url(../img/Header-bg-desktop.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-size: 100%;
   padding: 114px 0;
   background-position: center;
   background-color: #fff;
@@ -323,11 +332,11 @@ header {
 }
 
 .frameworks img {
-  margin: 0 0 0 291px;
+  margin: 0 0 0 201px;
 }
 
 .lastskills img {
-  margin: 0 0 0 364px;
+  margin: 0 0 0 252px;
 }
 
 .frameworks,
@@ -337,7 +346,7 @@ header {
 }
 
 .chev1 img {
-  margin: 3px 0 0 315px;
+  margin: 3px 0 0 220px;
 }
 
 .skills {
@@ -540,6 +549,7 @@ header {
   display: flex;
   gap: 2em;
   padding-left: 0;
+  margin-top: 22px;
 }
 
 .links > li {
@@ -609,13 +619,22 @@ header {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 18px;
   line-height: 20px;
   color: #172b4d;
 }
 
+#textarea ::placeholder {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3bac5;
+}
+
 #submit {
-  margin: 0% 0 5% 37%;
+  margin: 0% 0 5% 29%;
   padding: 12px 16px;
   width: 140px;
   background: #fff;
@@ -642,8 +661,8 @@ button:active,
 }
 
 .buttonlanguage {
-  width: 161px;
-  height: 55px;
+  width: 138px;
+  height: 50px;
   font-family: 'Poppins', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-style: normal;
   font-weight: 500;
@@ -657,6 +676,7 @@ button:active,
   border: 1px solid #6070ff;
   border-radius: 8px;
   background-color: #fff;
+  padding: 0 0 0 8px;
 }
 
 .contactpart {
@@ -683,6 +703,7 @@ button:active,
   font-size: 40px;
   line-height: 52px;
   text-align: center;
+  color: #fff;
 }
 
 .contactform p {
@@ -693,6 +714,7 @@ button:active,
   line-height: 28px;
   text-align: center;
   margin-bottom: 30px;
+  color: #fff;
 }
 
 .lastsection {
@@ -703,11 +725,26 @@ button:active,
 
 .secondbackground {
   background-image: url(../img/background.png);
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
 }
 
 .sidesection {
-  width: 31rem;
-  margin: 0 -200px 0 0;
+  width: 22rem;
+  margin: 0 -105px 0 0;
+}
+
+.lan h2,
+.frameworks h2,
+.lastskills h2 {
+  height: 24px;
+  left: 24px;
+  right: 78px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  align-items: center;
+  color: #344563;
 }
