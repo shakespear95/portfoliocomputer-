@@ -21,13 +21,13 @@ https://shakespear95.github.io/portfoliocomputer-/
 **in the index file i edited the css file so that it can style the header**
 **the next part was to install the linters for the html and CSS files**
 **folowed the template i was given and pushed the chnaged to my git hub**
+**Git pages was used for deploying the website online, now with the link you can view my website on every device, either your phone, tablet or computer**
 
 To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
 ### Install
-git pages for opening for seeing the page online 
 
 ## Authors
 
