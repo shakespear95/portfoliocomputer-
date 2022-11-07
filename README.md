@@ -1,7 +1,11 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Portfolio Project desktop version 
-> this is a simple web project to display the phrase "Hello Microverse"
+> This is the website for my Microverse Portfolio Project
+
+## the link below will take you to my wesite.
+
+https://shakespear95.github.io/portfoliocomputer-/
 
 ## Built With
 
@@ -23,6 +27,7 @@ To get a local copy up and running follow these simple example steps.
 ### Setup
 
 ### Install
+git pages for opening for seeing the page online 
 
 ## Authors
 
