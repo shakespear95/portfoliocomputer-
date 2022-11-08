@@ -32,6 +32,8 @@ To get a local copy up and running follow these simple example steps.
 ## Authors
 
 👤 **Shakespear Samu**
+👤 **Habitamu Asimare**
+
 
 - GitHub: [@githubhandle](https://github.com/shakespear95)
 - Twitter: [@twitterhandle](https://twitter.com/Taku16671414)
