@@ -25,6 +25,16 @@ header {
   font-weight: 700;
 }
 
+p,
+a {
+  font-size: larger;
+}
+
+h1,
+h2 {
+  font-size: x-large;
+}
+
 .nav-pic {
   height: 12px;
   padding-right: 15px;
@@ -339,8 +349,8 @@ button:hover {
   align-items: flex-start;
   padding: 8px;
   margin-right: 40px;
-  width: 12px;
-  height: 6px;
+  width: 15px;
+  height: 33px;
   right: 26px;
   border-radius: 8px;
 }
@@ -413,8 +423,8 @@ button:hover {
   align-items: center;
   margin-right: 40px;
   padding-top: 30px;
-  width: 12px;
-  height: 6px;
+  width: 15px;
+  height: px;
 }
 
 .form-container {
@@ -474,8 +484,9 @@ form {
   padding: 0 0 0 17px;
 }
 
-#user-name ::placeholder,
-#email-address ::placeholder {
+#user-name::placeholder,
+#email-address::placeholder,
+#msg::placeholder {
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
