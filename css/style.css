@@ -424,7 +424,7 @@ button:hover {
   margin-right: 40px;
   padding-top: 30px;
   width: 15px;
-  height: 33px;
+  height: px;
 }
 
 .form-container {
@@ -484,8 +484,9 @@ form {
   padding: 0 0 0 17px;
 }
 
-#user-name ::placeholder,
-#email-address ::placeholder {
+#user-name::placeholder,
+#email-address::placeholder,
+#msg::placeholder {
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
