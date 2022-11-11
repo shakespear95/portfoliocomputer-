@@ -17,7 +17,7 @@ header {
 #logo {
   text-decoration: none;
   color: #6070ff;
-  margin: 23.94px auto 23.94px 24px;
+  margin: 23.94px auto 23.94px 8px;
   width: 100vm;
   height: 20px;
   font-size: 18px;
@@ -28,6 +28,10 @@ header {
 p,
 a {
   font-size: larger;
+}
+
+a, a:visited {
+  color: ;
 }
 
 h1,
@@ -46,6 +50,16 @@ h2 {
   flex-direction: row;
   align-items: center;
   height: 15px;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
 }
 
 form li {
@@ -513,9 +527,67 @@ hr {
 }
 
 @media screen and (max-width: 768px) {
-  .nav-ul a {
-    display: none;
+  #home {
+    background-image: url(../img/mobileversion.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
+
+  a, a:visited{
+    color: white;
+}
+  .nav-ul {
+    position: fixed;
+    left: -120%;
+    top: -16px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #6070ff;
+    backdrop-filter: blur(5px);
+    mix-blend-mode: multiply;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    padding-top: 20px;
+  }
+
+  .nav-ul a {
+    margin: 1px 10px 0 -250px;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    margin: 0 19px 0 0;
+  }
+
+  .nav-ul.active {
+    left: 0;
+    padding-top: 117px;
+  }
+
+  .hamburger.active .line:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .line:nth-child(1) {
+    transform: translate(8px) rotate(45deg);
+  }
+
+  .hamburger.active .line:nth-child(3) {
+    transform: translate(-8px) rotate(-45deg);
+  }
+
+  .nav-ul a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    columns: #fff;
+  }
+
 }
 
 @media screen and (max-width: 900px) {
@@ -565,12 +637,20 @@ hr {
     background-size: 100%;
   }
 
+   .nav-ul {
+    margin-right: 39px;
+   }
+
+
   .home p {
     width: 100%;
   }
 
-  .nav-pic {
+  .hamburger {
     display: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
   }
 
   .work-img {
