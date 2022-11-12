@@ -79,6 +79,10 @@ form li {
   transition: transform 0.2s;
 }
 
+.bottomline img {
+  margin: 0 0 -793px -322px;
+}
+
 .home {
   background-image: url("../img/background.png");
   background-color: white;
@@ -566,8 +570,19 @@ hr {
     left: 127%;
   }
 
+  .bottomline {
+    position: fixed;
+    list-style: none;
+    top: 1%;
+    left: 127%;
+  }
+
   .nav-link1 > img {
     width: 1em;
+  }
+
+  .nav-link2 > img {
+    width: 5em;
   }
 
   .hamburger {
@@ -579,18 +594,6 @@ hr {
   .nav-ul.active {
     left: 0;
     padding-top: 117px;
-  }
-
-  .hamburger.active .line:nth-child(2) {
-    opacity: 0;
-  }
-
-  .hamburger.active .line:nth-child(1) {
-    transform: translate(8px) rotate(45deg);
-  }
-
-  .hamburger.active .line:nth-child(3) {
-    transform: translate(-8px) rotate(-45deg);
   }
 }
 
@@ -641,6 +644,10 @@ hr {
     background-size: 100%;
   }
 
+  .bottomline {
+    list-style: none;
+  }
+
   .nav-ul {
     margin-right: 39px;
   }
@@ -668,7 +675,8 @@ hr {
     margin-left: 6px;
   }
 
-  .nav-link1 {
+  .nav-link1,
+  .nav-link2 {
     display: none;
   }
 
