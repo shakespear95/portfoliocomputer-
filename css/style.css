@@ -30,10 +30,6 @@ a {
   font-size: larger;
 }
 
-a, a:visited {
-  color: ;
-}
-
 h1,
 h2 {
   font-size: x-large;
@@ -533,9 +529,11 @@ hr {
     background-size: 100%;
   }
 
-  a, a:visited{
+  a,
+  a:visited {
     color: white;
-}
+  }
+
   .nav-ul {
     position: fixed;
     left: -120%;
@@ -554,6 +552,22 @@ hr {
 
   .nav-ul a {
     margin: 1px 10px 0 -250px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    columns: #fff;
+  }
+
+  .crosshairs {
+    position: fixed;
+    top: 1%;
+    left: 127%;
+  }
+
+  .nav-link1 > img {
+    width: 1em;
   }
 
   .hamburger {
@@ -578,16 +592,6 @@ hr {
   .hamburger.active .line:nth-child(3) {
     transform: translate(-8px) rotate(-45deg);
   }
-
-  .nav-ul a {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 44px;
-    columns: #fff;
-  }
-
 }
 
 @media screen and (max-width: 900px) {
@@ -637,10 +641,9 @@ hr {
     background-size: 100%;
   }
 
-   .nav-ul {
+  .nav-ul {
     margin-right: 39px;
-   }
-
+  }
 
   .home p {
     width: 100%;
@@ -663,6 +666,10 @@ hr {
     width: 50%;
     margin-right: 20px;
     margin-left: 6px;
+  }
+
+  .nav-link1 {
+    display: none;
   }
 
   .containertext1,
