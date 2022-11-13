@@ -4,6 +4,8 @@ const bottom = document.querySelector(".nav-list2");
 const popButton = document.querySelectorAll('.work-button');
 const popModal = document.querySelector('.buttonmob');
 const closeButton = document.querySelector('.close-button');
+const Overlay = document.querySelector('.active');
+
 
 
 closeButton.addEventListener('click', () => {
@@ -15,6 +17,7 @@ popButton.forEach(x => (
         // Do something if any of the four button is clicked
         console.log('Button Clicked');
         popModal.classList.toggle("active");
+        Overlay.classList.toggle("active");
     })
 ));
 
