@@ -1,6 +1,22 @@
 const hamburger = document.querySelector(".hamburger");
 const navul = document.querySelector(".nav-ul");
 const bottom = document.querySelector(".nav-list2");
+const popButton = document.querySelectorAll('.work-button');
+const popModal = document.querySelector('.buttonmob');
+const closeButton = document.querySelector('.close-button');
+
+
+closeButton.addEventListener('click', () => {
+    popModal.classList.toggle("active");
+})
+
+popButton.forEach(x => (
+    x.addEventListener('click', () => {
+        // Do something if any of the four button is clicked
+        console.log('Button Clicked');
+        popModal.classList.toggle("active");
+    })
+));
 
 
 hamburger.addEventListener("click", () => {
