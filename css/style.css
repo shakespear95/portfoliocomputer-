@@ -17,7 +17,7 @@ header {
 #logo {
   text-decoration: none;
   color: #6070ff;
-  margin: 23.94px auto 23.94px 24px;
+  margin: 23.94px auto 23.94px 8px;
   width: 100vm;
   height: 20px;
   font-size: 18px;
@@ -46,6 +46,16 @@ h2 {
   flex-direction: row;
   align-items: center;
   height: 15px;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
 }
 
 form li {
@@ -424,7 +434,6 @@ button:hover {
   margin-right: 40px;
   padding-top: 30px;
   width: 15px;
-  height: px;
 }
 
 .form-container {
@@ -513,8 +522,103 @@ hr {
 }
 
 @media screen and (max-width: 768px) {
+  #home {
+    background-image: url(../img/mobileversion.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  a,
+  a:visited {
+    color: white;
+  }
+
+  .nav-ul {
+    position: fixed;
+    left: -120%;
+    top: -16px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #6070ff;
+    backdrop-filter: blur(5px);
+    mix-blend-mode: multiply;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    padding-top: 20px;
+  }
+
   .nav-ul a {
+    margin: 1px 10px 0 -228px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .crosshairs {
+    position: fixed;
+    top: 1%;
+    left: 120%;
+  }
+
+  .bottomline {
+    position: fixed;
+    list-style: none;
+    top: 1%;
+    left: 120%;
+  }
+
+  .nav-link1 > img {
+    width: 1em;
+  }
+
+  .nav-link2 > img {
+    width: 5em;
+  }
+
+  .nav-link2.active {
+    margin: 0% 0% -572% -365%;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    margin: 0 19px 0 0;
+  }
+
+  .nav-ul.active {
+    left: 0;
+    padding-top: 117px;
+  }
+
+  .buttonmob {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    border-radius: 5%;
+    height: 90%;
+    padding: 3%;
     display: none;
+  }
+
+  .buttonmob.active {
+    display: block;
+    background-color: #fff;
+  }
+
+  .containerheader {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #overlay.active {
+    opacity: 1;
+    pointer-events: all;
   }
 }
 
@@ -565,11 +669,22 @@ hr {
     background-size: 100%;
   }
 
+  .nav-ul {
+    margin-right: 39px;
+  }
+
   .home p {
     width: 100%;
   }
 
-  .nav-pic {
+  .hamburger {
+    display: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+  }
+
+  .buttonmob {
     display: none;
   }
 
@@ -583,6 +698,11 @@ hr {
     width: 50%;
     margin-right: 20px;
     margin-left: 6px;
+  }
+
+  .nav-link1,
+  .nav-link2 {
+    display: none;
   }
 
   .containertext1,

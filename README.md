@@ -33,6 +33,7 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Shakespear Samu**
 👤 **Habitamu Asimare**
+👤 **Wilson Kimiri**
 
 
 - GitHub: [@githubhandle](https://github.com/shakespear95)

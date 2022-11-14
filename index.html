@@ -9,26 +9,41 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/2b95109ad7.js" crossorigin="anonymous"></script>
     <title>Welcome to Shakespear's Portfolio </title>
 </head>
 
 <body>
     <header>
-        <a id="logo" href="#home">Shakespear</a>
-
+        <a id="logo" href="#home" class="logo">Shakespear</a>
 
         <nav>
 
             <ul class="nav-ul">
-                <li>
-                    <a href="#portfolio">Portfolio</a></li>
-                <li>
-                    <a href="#about">About</a></li>
-                <li>
-                    <a href="#contact">Contact</a></li>
-                <li><img class="nav-pic" src="img/union.png" alt=""></li>
-            </ul>
 
+                <li class="crosshairs">
+                    <a href="" class="nav-link1">
+                        <img src="./img/free_icon_1.svg" alt="cross icon">
+                    </a></li>
+                
+                <li>
+                    <a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li>
+                    <a href="#about" class="nav-link">About</a></li>
+                <li>
+                    <a href="#contact" class="nav-link">Contact</a></li>
+                <li class="bottomline">
+                    <a href=""> <img src="./img/Shape.png" alt="bottom icon" class="nav-link2"></a>
+                    </li>  
+                
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            
+            
         </nav>
     </header>
     
@@ -83,6 +98,36 @@
                 </div>
                 <div class="button">
                     <button type="button" class="work-button">See Project</button>
+                    
+                </div>
+                <div class="buttonmob" id="seeprojects">
+                    
+                    <div class="containerheader">
+                        <h2>Tonic</h2>
+                        <button class="close-button">&times;</button>
+                    </div>
+                    <div class="work-content work-content1">
+
+                        <p>CANCOPY</p>
+                        <ul>
+                            <li>Back End Dev</li>
+                            <li>2015</li>
+                        </ul>
+                    </div>
+                    <img src="img/poppic.png" alt="poppc">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem excepturi cupiditate placeat suscipit quia quis deserunt asperiores itaque! Voluptatibus fugiat earum consequuntur reprehenderit sit fuga officiis cupiditate optio dolore labore vero itaque adipisci nihil ipsam, quae recusandae, repudiandae !</p>
+                    <div class="categories">
+                        <ul>
+                            <li>html</li>
+                            <li>css</li>
+                            <li>javascript</li>
+                        </ul>
+                    </div>
+                    <div class="button">
+                        <button type="button" class="work-button">See live</button>
+                        <button type="button" class="work-button">See source</button>
+                    </div>
+                    <div class="active" id="overlay"></div>
                 </div>
             </div>
         </div>
@@ -276,7 +321,7 @@
         </div>
 
     </section>
-
+<script src="script.js"></script>
 </body>
 
 </html>
