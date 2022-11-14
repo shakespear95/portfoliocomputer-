@@ -11,7 +11,6 @@ closeButton.addEventListener('click', () => {
 popButton.forEach(x => (
   x.addEventListener('click', () => {
   // Do something if any of the four button is clicked
-    console.log('Button Clicked');
     popModal.classList.toggle('active');
     Overlay.classList.toggle('active');
   })
