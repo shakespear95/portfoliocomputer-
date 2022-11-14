@@ -79,9 +79,6 @@ form li {
   transition: transform 0.2s;
 }
 
-.bottomline img {
-  margin: 0 0 -793px -322px;
-}
 
 .home {
   background-image: url("../img/background.png");
@@ -555,7 +552,7 @@ hr {
   }
 
   .nav-ul a {
-    margin: 1px 10px 0 -250px;
+    margin: 1px 10px 0 -228px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -567,15 +564,16 @@ hr {
   .crosshairs {
     position: fixed;
     top: 1%;
-    left: 127%;
+    left: 120%;
   }
 
   .bottomline {
     position: fixed;
     list-style: none;
     top: 1%;
-    left: 127%;
+    left: 120%;
   }
+
 
   .nav-link1 > img {
     width: 1em;
@@ -583,6 +581,11 @@ hr {
 
   .nav-link2 > img {
     width: 5em;
+    
+  }
+
+  .nav-link2.active {
+    margin: 0 0 -628px -303px;
   }
 
   .hamburger {
@@ -680,10 +683,6 @@ hr {
     background-image: url(../img/home_bg.svg);
     background-repeat: no-repeat;
     background-size: 100%;
-  }
-
-  .bottomline {
-    list-style: none;
   }
 
   .nav-ul {

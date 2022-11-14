@@ -1,6 +1,6 @@
 const hamburger = document.querySelector(".hamburger");
 const navul = document.querySelector(".nav-ul");
-const bottom = document.querySelector(".nav-list2");
+const bottom = document.querySelector(".nav-link2");
 const popButton = document.querySelectorAll('.work-button');
 const popModal = document.querySelector('.buttonmob');
 const closeButton = document.querySelector('.close-button');
