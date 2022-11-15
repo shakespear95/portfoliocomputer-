@@ -658,12 +658,12 @@ hr {
 
   .buttonmob {
     position: fixed;
-    top: 46%;
+    top: 49%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 84%;
     border-radius: 5%;
-    height: 80%;
+    height: 88%;
     padding: 3%;
     display: none;
   }
@@ -690,7 +690,11 @@ hr {
   #popupbutton {
     display: flex;
     justify-content: start;
-    gap: 10%;
+    gap: 7%;
+  }
+
+  .mob-modal-image {
+    width: 100%;
   }
 
   .home.active,
