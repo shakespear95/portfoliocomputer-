@@ -27,11 +27,7 @@ closeButton.forEach((x) => (
   })
 ));
 
-// closeButton.addEventListener('click', () => {
-//   popModal.classList.toggle('active');
-//   popModaldesk.classList.toggle('active');
-//   console.log('Button Clicked');
-// });
+
 
 popButton.forEach((x) => (
   x.addEventListener('click', () => {

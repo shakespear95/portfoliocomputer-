@@ -697,7 +697,7 @@ hr {
   .form-container.active,
   .about-myself.active,
   header.active {
-    filter: blur(5px);
+    filter: blur(6px);
   }
 }
 
