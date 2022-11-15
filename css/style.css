@@ -703,11 +703,9 @@ hr {
   hr {
     flex: 0 0 100%;
     width: 89%;
-    /* padding-left: 2%; */
     margin-left: 1%;
   }
 }
-
 
 @media screen and (max-width: 900px) {
   .work-img1 img,
