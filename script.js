@@ -12,9 +12,6 @@ const homeSection = document.querySelector('.home');
 const aboutsection = document.querySelector('.about-myself');
 const contactform = document.querySelector('.form-container');
 const headerpart = document.querySelector('header');
-
-
-
 closeButton.forEach((x) => (
   x.addEventListener('click', () => {
   popModal.classList.toggle('active');
@@ -26,9 +23,6 @@ closeButton.forEach((x) => (
   headerpart.classList.toggle('active');
   })
 ));
-
-
-
 popButton.forEach((x) => (
   x.addEventListener('click', () => {
   // Do something if any of the four button is clicked
