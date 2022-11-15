@@ -14,13 +14,13 @@ const contactform = document.querySelector('.form-container');
 const headerpart = document.querySelector('header');
 closeButton.forEach((x) => (
   x.addEventListener('click', () => {
-  popModal.classList.toggle('active');
-  popModaldesk.classList.toggle('active');
-  workSection.classList.toggle('active');
-  homeSection.classList.toggle('active');
-  aboutsection.classList.toggle('active');
-  contactform.classList.toggle('active');
-  headerpart.classList.toggle('active');
+    popModal.classList.toggle('active');
+    popModaldesk.classList.toggle('active');
+    workSection.classList.toggle('active');
+    homeSection.classList.toggle('active');
+    aboutsection.classList.toggle('active');
+    contactform.classList.toggle('active');
+    headerpart.classList.toggle('active');
   })
 ));
 popButton.forEach((x) => (
@@ -34,7 +34,6 @@ popButton.forEach((x) => (
     aboutsection.classList.toggle('active');
     contactform.classList.toggle('active');
     headerpart.classList.toggle('active');
-
   })
 ));
 popButton1.forEach((x) => (
