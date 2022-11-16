@@ -37,6 +37,8 @@ const modpara2 = document.querySelector('.modal-paragraph-2');
 const modli3 = document.querySelector('.modal-li-3');
 const modli4 = document.querySelector('.modal-li-4');
 const modli5 = document.querySelector('.modal-li-5');
+const mobileLive = document.querySelector('.mobile-live');
+const mobileSrc = document.querySelector('.mobile-src');
 // ----------------------------------------------- //
 
 // desktop version /////////
@@ -51,6 +53,8 @@ const deskmodli5 = document.querySelector('.deskmodal-li-5');
 const deskmodli6 = document.querySelector('.deskmodal-li-6');
 const deskmodli7 = document.querySelector('.deskmodal-li-7');
 const deskmodli8 = document.querySelector('.deskmodal-li-8');
+const deskLive = document.querySelector('.desk-live');
+const deskSrc = document.querySelector('.desk-source');
 
 // ------------- MODAL EVENTS -------------------- //
 // ----------------------------------------------- //
@@ -87,6 +91,8 @@ const x = {
     modli4: 'css',
     modli5: 'javascript',
     backGround: 'img/25.png',
+    linkLive: 'https://shakespear95.github.io/portfoliocomputer-/',
+    linkSrc: 'https://github.com/shakespear95/portfoliocomputer-',
   },
   modal_2: {
     modHeader: 'Multi-Post Stories',
@@ -98,6 +104,8 @@ const x = {
     modli4: 'css',
     modli5: 'javascript',
     backGround: 'img/25.png',
+    linkLive: 'https://shakespear95.github.io/portfoliocomputer-/',
+    linkSrc: 'https://github.com/shakespear95/portfoliocomputer-',
   },
   modal_3: {
     modHeader: 'Facebook 360',
@@ -109,6 +117,8 @@ const x = {
     modli4: 'css',
     modli5: 'Javascript',
     backGround: 'img/25.png',
+    linkLive: 'https://shakespear95.github.io/portfoliocomputer-/',
+    linkSrc: 'https://github.com/shakespear95/portfoliocomputer-',
   },
   modal_4: {
     modHeader: 'Uber Navigation',
@@ -120,6 +130,8 @@ const x = {
     modli4: 'CSS',
     modli5: 'javaScript',
     backGround: 'img/25.png',
+    linkLive: 'https://shakespear95.github.io/portfoliocomputer-/',
+    linkSrc: 'https://github.com/shakespear95/portfoliocomputer-',
   },
 };
 
@@ -138,6 +150,8 @@ const y = {
     deskmodli7: 'ruby',
     deskmodli8: 'bootsraps',
     backGround: 'img/25.png',
+    linkLive: 'https://shakespear95.github.io/portfoliocomputer-/',
+    linkSrc: 'https://github.com/shakespear95/portfoliocomputer-',
   },
   modal_2: {
     deskmodHeader: 'TMulti-Post Stories',
@@ -152,6 +166,8 @@ const y = {
     deskmodli7: 'ruby',
     deskmodli8: 'bootsraps',
     backGround: 'img/25.png',
+    linkLive: 'https://shakespear95.github.io/portfoliocomputer-/',
+    linkSrc: 'https://github.com/shakespear95/portfoliocomputer-',
   },
   modal_3: {
     deskmodHeader: 'Facebook 360',
@@ -166,6 +182,8 @@ const y = {
     deskmodli7: 'ruby',
     deskmodli8: 'bootsraps',
     backGround: 'img/25.png',
+    linkLive: 'https://shakespear95.github.io/portfoliocomputer-/',
+    linkSrc: 'https://github.com/shakespear95/portfoliocomputer-',
   },
   modal_4: {
     deskmodHeader: 'TUber Navigation',
@@ -180,6 +198,8 @@ const y = {
     deskmodli7: 'ruby',
     deskmodli8: 'bootsraps',
     backGround: 'img/25.png',
+    linkLive: 'https://shakespear95.github.io/portfoliocomputer-/',
+    linkSrc: 'https://github.com/shakespear95/portfoliocomputer-',
   },
 };
 
@@ -193,6 +213,8 @@ function dataFeeder(num) {
     modli3.textContent = x.modal_1.modli3;
     modli4.textContent = x.modal_1.modli4;
     modli5.textContent = x.modal_1.modli5;
+    mobileLive.setAttribute('onclick', "window.location.href='https://shakespear95.github.io/portfoliocomputer-/';");
+    mobileSrc.setAttribute('onclick', "window.location.href='https://github.com/shakespear95/portfoliocomputer-';");
     document.querySelector('.mob-modal-image').setAttribute('src', 'img/Snapshoot Portfolio.png');
   } else if (num === 2) {
     modHeader.textContent = x.modal_2.modHeader;
@@ -203,6 +225,8 @@ function dataFeeder(num) {
     modli3.textContent = x.modal_2.modli3;
     modli4.textContent = x.modal_2.modli4;
     modli5.textContent = x.modal_2.modli5;
+    mobileLive.setAttribute('onclick', "window.location.href='https://shakespear95.github.io/portfoliocomputer-/';");
+    mobileSrc.setAttribute('onclick', "window.location.href='https://github.com/shakespear95/portfoliocomputer-';");
     document.querySelector('.mob-modal-image').setAttribute('src', 'img/Snapshoot Portfolio.png');
   } else if (num === 3) {
     modHeader.textContent = x.modal_3.modHeader;
@@ -213,6 +237,8 @@ function dataFeeder(num) {
     modli3.textContent = x.modal_3.modli3;
     modli4.textContent = x.modal_3.modli4;
     modli5.textContent = x.modal_3.modli5;
+    mobileLive.setAttribute('onclick', "window.location.href='https://shakespear95.github.io/portfoliocomputer-/';");
+    mobileSrc.setAttribute('onclick', "window.location.href='https://github.com/shakespear95/portfoliocomputer-';");
     document.querySelector('.mob-modal-image').setAttribute('src', 'img/Snapshoot Portfolio.png');
   } else if (num === 4) {
     modHeader.textContent = x.modal_4.modHeader;
@@ -223,6 +249,8 @@ function dataFeeder(num) {
     modli3.textContent = x.modal_4.modli3;
     modli4.textContent = x.modal_4.modli4;
     modli5.textContent = x.modal_4.modli5;
+    mobileLive.setAttribute('onclick', "window.location.href='https://shakespear95.github.io/portfoliocomputer-/';");
+    mobileSrc.setAttribute('onclick', "window.location.href='https://github.com/shakespear95/portfoliocomputer-';");
     document.querySelector('.mob-modal-image').setAttribute('src', 'img/Snapshoot Portfolio.png');
   }
 }
@@ -242,6 +270,8 @@ function deskFeeder(num) {
     deskmodli6.textContent = y.modal_1.deskmodli6;
     deskmodli7.textContent = y.modal_1.deskmodli7;
     deskmodli8.textContent = y.modal_1.deskmodli8;
+    deskLive.setAttribute('onclick', "window.location.href='https://shakespear95.github.io/portfoliocomputer-/';");
+    deskSrc.setAttribute('onclick', "window.location.href='https://github.com/shakespear95/portfoliocomputer-';");
     document.querySelector('.desktop-modal-image').setAttribute('src', 'img/Snapshoot Portfolio.png');
   } else if (num === 6) {
     deskmodHeader.textContent = y.modal_2.deskmodHeader;
@@ -255,6 +285,8 @@ function deskFeeder(num) {
     deskmodli6.textContent = y.modal_2.deskmodli6;
     deskmodli7.textContent = y.modal_2.deskmodli7;
     deskmodli8.textContent = y.modal_2.deskmodli8;
+    deskLive.setAttribute('onclick', "window.location.href='https://shakespear95.github.io/portfoliocomputer-/';");
+    deskSrc.setAttribute('onclick', "window.location.href='https://github.com/shakespear95/portfoliocomputer-';");
     document.querySelector('.desktop-modal-image').setAttribute('src', 'img/Snapshoot Portfolio1.png');
   } else if (num === 7) {
     deskmodHeader.textContent = y.modal_3.deskmodHeader;
@@ -268,6 +300,8 @@ function deskFeeder(num) {
     deskmodli6.textContent = y.modal_3.deskmodli6;
     deskmodli7.textContent = y.modal_3.deskmodli7;
     deskmodli8.textContent = y.modal_3.deskmodli8;
+    deskLive.setAttribute('onclick', "window.location.href='https://shakespear95.github.io/portfoliocomputer-/';");
+    deskSrc.setAttribute('onclick', "window.location.href='https://github.com/shakespear95/portfoliocomputer-';");
     document.querySelector('.desktop-modal-image').setAttribute('src', 'img/Snapshoot Portfolio3.png');
   } else if (num === 8) {
     deskmodHeader.textContent = y.modal_4.deskmodHeader;
@@ -281,6 +315,8 @@ function deskFeeder(num) {
     deskmodli6.textContent = y.modal_4.deskmodli6;
     deskmodli7.textContent = y.modal_4.deskmodli7;
     deskmodli8.textContent = y.modal_4.deskmodli8;
+    deskLive.setAttribute('onclick', "window.location.href='https://shakespear95.github.io/portfoliocomputer-/';");
+    deskSrc.setAttribute('onclick', "window.location.href='https://github.com/shakespear95/portfoliocomputer-';");
     document.querySelector('.desktop-modal-image').setAttribute('src', 'img/Snapshoot Portfolio4.png');
   }
 }
