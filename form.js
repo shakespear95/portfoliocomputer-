@@ -11,6 +11,6 @@ form.addEventListener('submit', (e) => {
         e.preventDefault();
         formError.innerText = messages.join(',');
     }
-    // alert('messages');
+    
 })
 
