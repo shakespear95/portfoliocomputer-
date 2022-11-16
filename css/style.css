@@ -162,6 +162,10 @@ form ul {
   top: 100px;
 }
 
+.work.active {
+  filter: blur(50px);
+}
+
 .grid-item {
   box-sizing: border-box;
   display: flex;
@@ -240,6 +244,12 @@ button:hover {
   cursor: pointer;
 }
 
+#popupbutton {
+  display: flex;
+  justify-content: start;
+  gap: 2em;
+}
+
 .work-button {
   box-sizing: border-box;
   background-color: white;
@@ -253,6 +263,23 @@ button:hover {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #396df2;
+}
+
+.work-button1 {
+  box-sizing: border-box;
+  background-color: white;
+  align-items: center;
+  padding: 12px;
+  width: 139px;
+  height: 48px;
+  left: 0;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
   letter-spacing: 0.03em;
   color: #396df2;
 }
@@ -321,6 +348,10 @@ button:hover {
   text-align: center;
 }
 
+.textandlinks {
+  display: flex;
+}
+
 .skill-set {
   display: flex;
   flex-direction: column;
@@ -363,6 +394,13 @@ button:hover {
   height: 33px;
   right: 26px;
   border-radius: 8px;
+}
+
+.close-button {
+  border: none;
+  background: none;
+  height: 31px;
+  padding-top: 16px;
 }
 
 .languages-list {
@@ -424,6 +462,16 @@ button:hover {
   margin-right: auto;
   align-items: center;
   color: #000;
+}
+
+.lorem p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: #344563;
+  width: 90%;
 }
 
 .arrow-img {
@@ -517,8 +565,18 @@ form {
   margin-bottom: 8px;
 }
 
+#buttonpic {
+  width: 100%;
+  height: 55%;
+}
+
 hr {
   flex: 0 0 100%;
+}
+
+.containerheader1 {
+  display: flex;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 768px) {
@@ -531,6 +589,10 @@ hr {
   a,
   a:visited {
     color: white;
+  }
+
+  .loremtextmob {
+    font-size: 15px;
   }
 
   .nav-ul {
@@ -596,12 +658,12 @@ hr {
 
   .buttonmob {
     position: fixed;
-    top: 50%;
+    top: 49%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 90%;
+    width: 84%;
     border-radius: 5%;
-    height: 90%;
+    height: 88%;
     padding: 3%;
     display: none;
   }
@@ -619,6 +681,33 @@ hr {
   #overlay.active {
     opacity: 1;
     pointer-events: all;
+  }
+
+  .buttondesk {
+    display: none;
+  }
+
+  #popupbutton {
+    display: flex;
+    justify-content: start;
+    gap: 7%;
+  }
+
+  .mob-modal-image {
+    width: 100%;
+  }
+
+  .home.active,
+  .form-container.active,
+  .about-myself.active,
+  header.active {
+    filter: blur(6px);
+  }
+
+  hr {
+    flex: 0 0 100%;
+    width: 89%;
+    margin-left: 1%;
   }
 }
 
@@ -675,6 +764,13 @@ hr {
 
   .home p {
     width: 100%;
+  }
+
+  .home.active,
+  .form-container.active,
+  .about-myself.active,
+  header.active {
+    filter: blur(5px);
   }
 
   .hamburger {
@@ -775,5 +871,24 @@ hr {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .buttondesk {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    border-radius: 5%;
+    height: 90%;
+    padding: 3%;
+    display: none;
+    margin: auto;
+  }
+
+  .buttondesk.active {
+    display: block;
+    background-color: #fff;
+    padding-top: 0;
   }
 }
