@@ -497,7 +497,7 @@ button:hover {
   background-size: cover;
   background-repeat: no-repeat;
   padding: 50px 24px 0 24px;
-  padding-top: 103px;
+  padding-top: 30px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -574,9 +574,27 @@ hr {
   flex: 0 0 100%;
 }
 
+.contact-top-p {
+  width: 327px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .containerheader1 {
   display: flex;
   justify-content: space-between;
+}
+
+#form-error.active {
+  color: red;
 }
 
 @media screen and (max-width: 768px) {
@@ -773,6 +791,10 @@ hr {
     filter: blur(5px);
   }
 
+  .contact-top-p {
+    width: 73%;
+  }
+
   .hamburger {
     display: none;
     -webkit-transition: all 0.3s ease-in-out;
@@ -892,3 +914,7 @@ hr {
     padding-top: 0;
   }
 }
+
+/* #form-error {
+  color: red;
+} */

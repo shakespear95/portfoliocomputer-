@@ -154,7 +154,7 @@
                 <h1>Contact me</h1>
                 <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
             </div>
-            <form method="POST" action="https://formspree.io/f/xjvzplnw">
+            <form id="form" method="POST" action="https://formspree.io/f/xjvzplnw">
                 <ul class="form-ul">
                     <li>
                         <input type="text" name="name" id="user-name" placeholder="Enter your name here" required>
@@ -165,8 +165,9 @@
                     <li>
                         <textarea name="message" id="msg" maxlength="500" placeholder="leave your message here " required></textarea>
                     </li>
+                    <span id="form-error" class="contact-top-p"></span>
                     <li>
-                        <button type="submit">Get In Touch</button>
+                        <button type="submit" id="form-button">Get In Touch</button>
                     </li>
                 </ul>
             </form>
@@ -175,7 +176,6 @@
 
     </section>
 
-    
 
     <div class="buttondesk" id="seeprojects">
         <div class="containerheader1">
@@ -257,6 +257,7 @@
 <!--  -->
 <script src="workSection.js"></script>
 <script src="script.js" defer></script>
+<script src="form.js"></script>
 </body>
 
 </html>
