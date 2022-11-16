@@ -59,6 +59,7 @@ const deskSrc = document.querySelector('.desk-source');
 // ------------- MODAL EVENTS -------------------- //
 // ----------------------------------------------- //
 
+
 button1.addEventListener('click', () => {
   buttonCount = 1;
   deskCount = 5;
